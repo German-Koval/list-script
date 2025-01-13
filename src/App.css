@@ -1,0 +1,65 @@
+#root {
+  width: 90%;
+  margin: 0 auto;
+  
+  
+}
+
+h1 {
+  font-size: 30px;
+  margin-bottom: 3.2em;
+}
+.main-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+
+}
+.form-container {
+ 
+  width: 40%;
+}
+form {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.result-container {
+  
+  text-align: start;
+  width: 40%;
+}
+
+textarea { 
+  resize: none;
+  width: 100%;
+  height: 400px;
+  margin-bottom: 30px;
+  border-radius: 15px;
+}
+
+input {
+  border-radius: 15px;
+}
+
+.result__list-el {
+  cursor: pointer;
+
+}
+.result__list-el:hover {
+  color: crimson;
+}
+textarea::placeholder {
+  color: blueviolet
+}
+textarea::placeholder,input::placeholder {
+  color: blueviolet;
+  font-size: 20px;
+}
+
+.group-link {
+  max-width: 400px;
+}
