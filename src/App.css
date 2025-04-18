@@ -39,10 +39,25 @@ textarea {
   height: 400px;
   margin-bottom: 30px;
   border-radius: 15px;
+  padding: 15px;
 }
 
 input {
   border-radius: 15px;
+  padding: 10px;
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.input-group label {
+  display: flex;
+  align-items: center;
+  gap: 5px;
 }
 
 .result__list-el {
@@ -62,4 +77,15 @@ textarea::placeholder,input::placeholder {
 
 .group-link {
   max-width: 400px;
+  margin-bottom: 20px;
+}
+
+.copy-animation {
+  background-color: #4CAF50 !important;
+  transform: scale(1.05);
+  transition: all 0.3s ease;
+}
+
+.copy-button {
+  margin-bottom: 20px;
 }
